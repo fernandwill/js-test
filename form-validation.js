@@ -32,6 +32,6 @@ emailForm.addEventListener("submit", (event) => {
         return;
     }
 
-    emailResult.textContent = "Email saved."
+    emailResult.textContent = "Email saved.";
     emailResult.style.color = "green";
 })
