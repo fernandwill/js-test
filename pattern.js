@@ -34,17 +34,32 @@ function isPalindrome(num) {
 // 1 2 3 4
 // 1 2 3 4 5
 
-function printTriangle(n) {
-    for (let i = 1; i <= n; i++) {
-        let row = "";
-        for (let j = 1; j <= i; j++) {
-            row += j + "";
-        }
-        console.log(row);
-    }
-}
+// function printTriangle(n) {
+    // for (let i = 1; i <= n; i++) {
+        // let row = "";
+        // for (let j = 1; j <= i; j++) {
+            // row += j + "";
+        // }
+        // console.log(row);
+    // }
+// }
 
-printTriangle(5);
+// printTriangle(5);
+
+const triangleText = (n) => {
+    let x = 0;
+    for (let i = 1; i <= n; i++) {
+        x += i;
+    }
+    return x;
+};
+
+console.log(triangleText(1));
+console.log(triangleText(6));
+console.log(triangleText(10));
+
+
+
 
 
 
